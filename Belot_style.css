@@ -1,0 +1,364 @@
+html {
+    background-color: rgb(183, 0,31);
+    background-image: url('siteimages_belot/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial;
+    font-size: 17px;
+    color: white;
+}
+input, button:focus {
+    outline: 0;
+}
+.title {
+    font-size: 50px;
+    font-family: 'Monotype Corsiva';
+    text-align: center;
+    padding: 0;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+}
+.label_p {
+    font-size: 23px;
+    padding: 0;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: block;
+}
+.text_field {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    font-size: 17px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    margin: 10px auto;
+    display: block;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: rgb(183, 0,31);
+    color: white;
+    cursor: pointer;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+.submit_btn_containerL {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    font-size: 17px;
+    padding: 0;
+    padding-right: 7.5px;
+    width: 50%;
+    height: auto;
+    margin: 10px 0;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.submit_btn_containerR {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    font-size: 17px;
+    padding: 0;
+    padding-left: 7.5px;
+    width: 50%;
+    height: auto;
+    margin: 10px 0;
+    margin-left: auto;
+    margin-top: -60px;
+}
+.submit_btn {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    font-size: 17px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    margin: 10px auto;
+    display: block;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(183, 0,31);
+    color: white;
+    cursor: pointer;
+}
+.cards_img{
+    width: 50px;
+    margin-top: 20px;
+}
+.calc_btn {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    font-size: 23px;
+    background-color: rgb(183, 0,31);
+    border: 2px solid white;
+    border-radius: 5px;
+    width: auto;
+    height: 70px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align: center;
+    padding-top: 21px;
+}
+.calc_column1 {
+    border-radius: 5px;
+    width: 50%;
+    height: 70px;
+    cursor: pointer;
+    color: white;
+    height: 240px;
+}
+.calc_column2 {
+    border-radius: 5px;
+    width: 50%;
+    height: 70px;
+    cursor: pointer;
+    color: white;
+    margin-top: -240px;
+    margin-left: 50%;
+    height: 240px;
+}
+.calc_column3 {
+    border-radius: 5px;
+    width: 25%;
+    height: 70px;
+    cursor: pointer;
+    color: white;
+    margin-top: -320px;
+    margin-left: 50%;
+    height: 320px;
+}
+.calc_column4 {
+    border-radius: 5px;
+    width: 25%;
+    height: 70px;
+    cursor: pointer;
+    color: white;
+    margin-top: -320px;
+    margin-left: 75%;
+    height: 320px;
+}
+.current_calc_container {
+    width: auto;
+    height: 50px;
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(183, 0,31);
+}
+.text_field_login {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    font-size: 17px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: rgb(183, 0,31);
+    color: white;
+    cursor: pointer;
+}
+.submit_btn_login {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    font-size: 17px;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    display: block;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(183, 0,31);
+    color: white;
+    cursor: pointer;
+}
+.day_select {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 26.5px;
+    padding-left: 5px;
+    width: 185px;
+    height: 45px;
+    text-align: left;
+    border: 1px, solid;
+    box-shadow: none !important;
+    border: 1px solid rgb(180, 180, 180) !important;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.container_checkbox {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    margin-top: 105px;
+    display: block;
+    position: relative;
+    padding-left: 23px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-bottom: 16px;
+}
+    /* Hide the browser's default checkbox */
+    .container_checkbox input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+/* Create a custom checkbox */
+.checkmark_checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 4px;
+    background-color: rgb(183, 0,31);
+    color: white;
+    border: 2px solid white;
+}
+/* When the checkbox is checked, add a blue background */
+.container_checkbox input:checked ~ .checkmark_checkbox {
+    background-color: rgb(183, 0,31);
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark_checkbox:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkmark_checkbox:hover {
+    border-color: white;
+}
+/* Show the checkmark when checked */
+.container_checkbox input:checked ~ .checkmark_checkbox:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.container_checkbox .checkmark_checkbox:after {
+    left: 5px;
+    top: 1.2px;
+    width: 2.5px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-color: white;
+}
+.exit_btn {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    font-size: 17px;
+    padding: 0;
+    width: 100px;
+    height: 35px;
+    display: block;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(183, 0,31);
+    color: white;
+    cursor: pointer;
+    margin-top: -48px;
+    margin-left: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 700px) {
+    .submit_btn{
+        height: 35px;
+    }
+    .submit_btn_containerR {
+        margin-top: -45px;
+    }
+    .text_field{
+        height: 35px;
+    }
+    .calc_btn {
+        font-size: 17px;
+        height: 50px;
+        text-align: center;
+        padding-top: 12px;
+    }
+    .calc_column1 {
+        border-radius: 5px;
+        width: 50%;
+        cursor: pointer;
+        color: white;
+        height: 180px;
+    }
+    .calc_column2 {
+        border-radius: 5px;
+        width: 50%;
+        cursor: pointer;
+        color: white;
+        margin-top: -180px;
+        margin-bottom: -100px;
+        margin-left: 50%;
+        height: 280px;
+    }
+    .calc_column3 {
+        border-radius: 5px;
+        width: 25%;
+        height: 70px;
+        cursor: pointer;
+        color: white;
+        margin-top: -240px;
+        margin-left: 50%;
+        height: 240px;
+    }
+    .calc_column4 {
+        border-radius: 5px;
+        width: 25%;
+        height: 70px;
+        cursor: pointer;
+        color: white;
+        margin-top: -240px;
+        margin-left: 75%;
+        height: 240px;
+    }
+    .title{
+        text-align: left;
+    }
+}
